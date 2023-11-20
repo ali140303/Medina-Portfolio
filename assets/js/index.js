@@ -23,7 +23,7 @@ function enviar(){
         document.getElementById("apellido").style.borderColor=`gray`;
     }else if(message==""){
         document.getElementById("respID").innerHTML=`Genero faltante`;
-        document.getElementsByName("radio").style.borderColor=`red`;
+        document.getElementById("msg").style.borderColor=`red`;
         document.getElementById("nombre").style.borderColor=`gray`;
         document.getElementById("apellido").style.borderColor=`gray`;
         document.getElementById("correo").style.borderColor='gray';
