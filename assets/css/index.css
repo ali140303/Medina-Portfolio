@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    background-color: #FFFD5C;
+}
+body div{
+    padding-bottom: 2%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #5DC72B;
+    color: black;
+}
+header span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+#portada{
+    display:grid;
+    grid-template-rows: repeat(1,auto);
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+    height:50rem;
+    width:80%;
+    margin: 0.2% 0%;
+    background-color: #FFFD5C;
+}
+#portada h2{
+    font-size: 5rem;
+    margin-bottom: 0px;
+}
+#portada img{
+    display: flex;
+    width:20%;
+}
+#portada span{
+    justify-content: center;
+    font-size:70%;
+}
+
+
+#info{
+    display:grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(1,0fr);
+    justify-content: center;
+    justify-self: center;
+    padding-top:3%;
+    margin: 0.2% 0%;
+    width:100%;
+    height:40rem;
+    background-color: white;
+    font-size: 120%;
+}
+#info h2,#formulario h2,#proscons h2,#intereses h2,#proyectos h2{
+    justify-self: center;
+    font-weight: bold;
+}
+#info span{
+    justify-self: left;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+#proscons,#intereses,#proyectos{
+    display:grid;
+    justify-content: center;
+    justify-self: center;
+    padding-top:3%;
+    margin: 0.2% 0%;
+    grid-template-rows: repeat(1,0fr);
+    width:100%;
+    height:auto;
+    background-color: white;
+    font-size: 120%;
+}
+#proscons h2,#intereses h2,#proyectos h2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#info hr,#proscons hr,#intereses hr,#proyectos hr,#formulario hr{
+    width: 95%;
+    height: 2px;
+    margin: 1% 0%;
+    opacity: 1;
+    justify-self: center;
+}
+
+#proscons{
+    width: 100%;
+    background-color: #FFFD5C;
+}
+#procontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 15%;
+}
+#pros,#cons{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#pros{
+    background-color: #5DC72B;
+    margin-right:2%;
+}
+#cons{
+    background-color: #FF5656;
+    margin-left: 2%;
+}
+#pros h2,#cons h2{
+    padding-top: 5%;
+}
+#pros ul li,#cons ul li{
+    padding: 3% 2%;
+}
+#intereses{
+    width: 100%;
+}
+#contenido{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: repeat(1,0fr);
+    justify-content: center;
+    justify-self: center;
+}
+#texto{
+    display: grid;
+    grid-template-rows: repeat(1,auto);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+#texto span{
+    padding-bottom: 5%;
+}
+#intereses img{
+    justify-self: center;
+    width: 42%;
+    align-self: center;
+}
+#proyectos{
+    width: 100%;
+    background-color: #FFFD5C;
+}
+#contenido-proyectos{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding:0% 10%;
+}
+#item{
+    display: block;
+    border: #000000;
+    width: 90%;
+    height: 95%;
+    border-radius: 0.2rem;
+    background-color: white;
+}
+#item a{
+    display: flex;
+    height: 100%;
+    justify-self: center;
+    justify-content: center;
+}
+#item div a button{
+    justify-self: center;
+    height: 100%;
+}
+#item div a button img{
+    justify-self: center;
+    width: 100%;
+}
+#item div{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+
+#formulario{
+    display:grid;
+    justify-content: center;
+    justify-self: center;
+    padding-top:3%;
+    grid-template-rows: repeat(1,auto);
+    width:100%;
+    height:50rem;
+    background-color: white;
+    font-size: 120%;
+}
+#formulario span{
+    justify-self: left;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+}
+#form{
+    display:grid;
+    justify-content: left;
+    justify-self: center;
+
+}
+#form div input{
+    width: 100%;
+    padding: 2% 0%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#respID{
+    height: 10rem;
+    font-size: 0.8rem;
+    padding:0% 5% 1% 5%;
+}
+
+
+footer {
+    background-color: #5DC72B;
+    color: #000000;
+    text-align: center;
+    padding: 1% 0% 0% 0%;
+}
+#foot-icon{
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    justify-content: center;
+}
+  
+#foot-icon svg{
+    padding:0% 10%;
+}
